@@ -24,8 +24,7 @@
 			 * @dev - IP would need validation in a good scenario - but can get away with it Heer..
 			 * 
 			 */
-			// const ipv4_address = wpweather_ajax.client_ip;
-			const ipv4_address = '96.47.238.100';
+			const ipv4_address = wpweather_ajax.client_ip;
 
 			jq.ajax({
 				method: 'GET',
