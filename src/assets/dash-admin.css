@@ -1,0 +1,47 @@
+#current-weather .weather {
+	position: relative;
+}
+
+#current-weather h3 {
+	font-size: 1.5em;
+}
+
+#current-weather .date-now {
+	font-size: .6em;
+	font-style: italic;
+}
+
+.weather .temperature {
+	position: absolute;
+	top: -5px;
+    font-size: 2.2em;
+    font-weight: bold;
+    margin-top: .2em;
+    margin-bottom: .2em;
+    margin-left: 2.4em;
+    color: #d26c22;
+}
+
+.weather .description {
+    margin-top: -12px;
+}
+
+
+.weather table {
+    margin: 0 auto;
+    margin-top: 2em;
+    font-size: 1.1em;
+}
+
+.weather table tr:nth-child(1) {
+    font-weight: bold;
+
+}
+
+.weather table td {
+    padding: .6em;
+}
+
+.weather table tr:nth-child(2) td {
+    color: #d26c22;
+}
